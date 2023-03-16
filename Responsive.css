@@ -1,3 +1,465 @@
+<<<<<<< HEAD
+/*280px is started */
+@media screen and (min-width:280px)
+{
+    /* PAGE4 IS STARTED */
+    .page4 h1 
+    {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .page4 p 
+    {
+        font-size: 12px;
+        line-height: 20px;
+    } 
+    .page4 button
+    {
+        padding: 5px 10px;
+    }
+
+    /* TEAM IS STARTED */
+    .team h1 
+    {
+        font-size: 30px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    .team p 
+    {
+        font-size: 14px;
+        line-height: 15px;
+        margin-bottom: 20px;
+    }
+    .team .card
+    {
+        margin-bottom: 5px;
+    }
+    .team .team-card
+    {
+        padding: 20px 0;
+        margin-top: 30px;
+    }
+    .team .team-card h2 
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .team .team-card p 
+    {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .team .team-card form
+    {
+        max-width: 100%;
+        width: 100%;
+        background: none;
+    }
+    .team .team-card form:hover
+    {
+        box-shadow: none;
+    }
+    .team .team-card #mail
+    {
+        width: 90%;
+        padding: 15px;
+        border-radius: 30px;
+        border: 1px solid gray;
+    }
+    .team .team-card #mail:hover
+    {
+        box-shadow: 0 0 5px gray;
+    }
+    .team .team-card #submit
+    {
+        max-width: 80%;
+        width: 100%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+    /* INFO IS STARTED  */
+    .info .info-c
+    {
+        border-left: 1px solid rgb(218, 211, 211);
+        margin-top: 5px;
+        text-align: center;
+    }
+    .info .info-c:nth-child(1), .info .info-c:nth-child(2), .info .info-c:nth-child(4) 
+    {
+        border: none;
+    }
+
+    .info img 
+    {
+        max-width: 60%;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .info a 
+    {
+        line-height: 32px;
+
+    }
+    .info .icon 
+    {
+        max-width: 80%;
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .info .icon a
+    {
+        line-height: 32px;
+        padding: 2px 8px;
+        margin: 0;
+    }
+    .info h5 
+    {
+        font-size: 12px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    /* FOOTER IS STARTED */
+    .footer 
+    {
+        margin-top: 20px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .footer h2
+    {
+        float: none;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .footer .navbar 
+    {
+        margin-top: -90px;
+        max-width: 90%;
+        width: 100%;
+        float: none;
+    }
+}
+
+/*576px is started */
+@media screen and (min-width:576px)
+{
+    /* PAGE4 IS STARTED */
+    .page4 h1 
+    {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    .page4 p 
+    {
+        font-size: 12px;
+        line-height: 20px;
+    } 
+    .page4 button
+    {
+        padding: 5px 10px;
+    }
+    
+    /* TEAM IS STARTED */
+    .team h1 
+    {
+        font-size: 30px;
+        line-height: 25px;
+        margin-top: 80px;
+    }
+    .team p 
+    {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .team .card
+    {
+        margin-bottom: 5px;
+    }
+    .team .team-card
+    {
+        padding: 20px 0;
+        margin-top: 30px;
+    }
+    .team .team-card h2 
+    {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .team .team-card p 
+    {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .team .team-card form
+    {
+        max-width: 90%;
+        width: 100%;
+        background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+        box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+    }
+    .team .team-card form:hover
+    {
+        box-shadow: 0 0 5px gray;
+    }
+    .team .team-card #mail
+    {
+        width: 65%;
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+    }
+    .team .team-card #mail:hover
+    {
+        box-shadow: none;
+    }
+    .team .team-card #submit
+    {
+        max-width: 25%;
+        width: 100%;
+        margin-top:1%;
+        margin-right: 4%;
+        margin-left: 0;
+    }
+    /* INFO IS STARTED  */
+    .info .info-c
+    {
+        border-left: 1px solid rgb(218, 211, 211);
+        margin-top: 5px;
+        text-align: center;
+    }   
+    .info img 
+    {
+        max-width: 40%;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .info .icon 
+    {
+        max-width: 60%;
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .info .icon a
+    {
+        line-height: 32px;
+        padding: 2px 8px;
+        margin: 0;
+    }
+    .info h5 
+    {
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    /* FOOTER IS STARTED */
+    .footer 
+    {
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    .footer h2
+    {
+        float: left;
+        margin: 0;
+    }
+    .footer .navbar 
+    {
+        max-width: 45%;
+        width: 100%;
+        float: right;
+        margin: 0;
+    }
+}
+
+/* 768px is started */
+@media screen and (min-width:768px) 
+{
+    /* PAGE4 IS STARTED */
+    .page4 h1 
+    {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 80px;
+    }
+    .page4 p 
+    {
+        font-size: 14px;
+        line-height: 20px;
+    } 
+
+    /* TEAM IS STARTED */
+    .team h1 
+    {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+    .team .card
+    {
+        margin-bottom: 30px;
+    }
+    .team .card h3 
+    {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .team .card h4 
+    {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .team .icon
+    {
+        max-width: 80%;
+        width: 100%;
+    }
+    .team .team-card h2 
+    {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .team .team-card form
+    {
+        max-width: 75%;
+    }
+    .team .team-card #submit
+    {
+        margin-right: 2%;
+    }
+    
+    /* INFO IS STARTED  */
+    .info .info-c
+    {
+        margin: 0;
+        text-align: left;
+        border: none;
+    }   
+    .info img 
+    {
+        max-width: 50%;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .info .icon 
+    {
+        max-width: 80%;
+        margin-top:10px;
+        margin-left: 2%;
+        margin-right: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .info h5 
+    {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 30px;
+    }
+    /* FOOTER IS STARTED */
+    .footer .navbar 
+    {
+        max-width: 30%;
+    }
+    
+}
+
+/* 992px is started */
+@media screen and (min-width:992px)
+{
+    
+    /* PAGE4 IS STARTED */
+    .page4 h1 
+    {
+        font-size: 38px;
+        line-height: 50px;
+        margin-top: 120px;
+    }
+    .page4 p 
+    {
+        font-size: 16px;
+        line-height: 26px;
+    } 
+
+    /* TEAM IS STARTED */
+    .team h1 
+    {
+        font-size: 42px;
+        line-height: 55px;
+        margin-top: 60px;
+    }
+    .team p 
+    {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 35px;
+    }
+    .team .card h3 
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .team .card h4 
+    {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .team .team-card h2 
+    {
+        font-size: 42px;
+        line-height: 55px;
+    }
+    .team .team-card p 
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .team .team-card form
+    {
+        max-width: 65%;
+    }
+
+    /* INFO IS STARTED  */
+    .info .icon 
+    {
+        max-width: 60%;
+    }
+    .info h5 
+    {
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+
+/* 1200px is started */
+@media screen and (min-width:1200px)
+{
+    
+    /* TEAM IS STARTED */
+    .team h1 
+    {
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+=======
 @media screen and (max-width:1200px)
 {
     
@@ -81,3 +543,4 @@
 {
     
 }
+>>>>>>> e022afc2ca429b73ca17757cebb0c109c95f7e21

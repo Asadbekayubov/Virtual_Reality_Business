@@ -1,3 +1,283 @@
+<<<<<<< HEAD
+*
+{
+    margin: 0;
+    padding: 0;
+}
+@font-face
+{
+    font-family: DM Sans;
+    src: url("./fonts/DM Sans/DMSans-Regular.ttf");
+}
+
+.V-R-Business
+{
+    overflow: hidden;
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background: #111828;
+    color: white;
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+
+/* PAGE4 IS STARTED */
+.page4 h1 
+{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    margin-top: 120px;
+}
+.page4 p 
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+} 
+.page4 button
+{
+    padding: 5px 10px;
+    border: none;
+    background: #2C5AD7;
+    color: white;
+    border-radius: 5px;
+}
+.page4 button:hover
+{
+    border: none;
+    box-shadow: 0 0 10px #2C5AD7;
+}
+.page4 img 
+{
+    max-width: 100%;
+    width: 100%;
+}
+
+/* TEAM IS STARTED */
+.team h1 
+{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    margin-top: 100px;
+}
+.team p 
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 35px;
+}
+.team .card
+{
+    border: 1px solid grey;
+    border-radius: 25px;
+    margin-bottom: 80px;
+    background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
+    box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+}
+.team .card img 
+{
+    max-width: 50%;
+    width: 100%;
+    align-self:center;
+    margin-top: 20px;
+}
+.team .card h3 
+{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: -20px;
+}
+.team .card h4 
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.team .icon
+{
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.team .card:hover
+{
+    border: none;
+    box-shadow: 0 0 5px white;
+}
+.team .team-card
+{
+    padding: 20px 0;
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+    box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
+}
+.team .team-card:hover
+{
+    border: 1px solid gray;
+    box-shadow: none;
+}
+.team .team-card h2 
+{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+}
+.team .team-card p 
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+.team .team-card form
+{
+    align-self: center;
+    max-width: 65%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.0348) 0%, rgba(255, 255, 255, 0.048) 100%);
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+    border-radius: 30px;
+}
+.team .team-card form:hover
+{
+    box-shadow: 0 0 5px gray;
+}
+.team .team-card #mail
+{
+    width: 60%;
+    padding: 15px 0;
+    float: left;
+    margin-left: 4%;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+}
+.team .team-card #submit
+{
+    padding: 9px 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 1%;
+    float: right;
+    margin-right: 2%;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    opacity: 0.9;
+    color: white;
+}
+.team .team-card #submit:hover
+{
+    transform: scale(104%);
+}
+/* INFO IS STARTED  */
+.info img 
+{
+    max-width: 40%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.info a 
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 15px;
+    text-decoration: none;
+}
+.info a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+.info .icon 
+{
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.info .icon a
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.8);
+    background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
+    padding: 2px 8px;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    border-radius: 50%;
+}
+.info .icon a:hover
+{
+    transform: scale(105%);
+}
+.info h5 
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.8);
+}
+/* FOOTER IS STARTED */
+.footer 
+{
+    border-top: 1px solid gray;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer h2
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    float: left;
+}
+.footer .navbar 
+{
+    max-width: 30%;
+    width: 100%;
+    float: right;
+}
+.footer .navbar ul 
+{
+    max-width: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0;
+}
+.footer .navbar ul li a
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.footer .navbar ul li a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+=======
 * {
     margin: 0;
     padding: 0;
@@ -312,3 +592,4 @@ button:active {
     margin-top: 15px;
 }
 
+>>>>>>> e022afc2ca429b73ca17757cebb0c109c95f7e21
