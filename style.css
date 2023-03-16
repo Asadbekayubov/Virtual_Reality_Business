@@ -1,108 +1,103 @@
-<<<<<<< HEAD
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
-@font-face
-{
+
+@font-face {
     font-family: DM Sans;
     src: url("./fonts/DM Sans/DMSans-Regular.ttf");
 }
 
-.V-R-Business
-{
+.V-R-Business {
     overflow: hidden;
     max-width: 1440px;
     width: 100%;
     height: auto;
     padding: 10px 0;
-    background: #111828;
+    background: #121E3C;
     color: white;
     font-family: 'DM Sans';
     font-style: normal;
 }
 
 /* PAGE4 IS STARTED */
-.page4 h1 
-{
+.page4 h1 {
     font-weight: 700;
     font-size: 42px;
     line-height: 55px;
     margin-top: 120px;
 }
-.page4 p 
-{
+
+.page4 p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-} 
-.page4 button
-{
+}
+
+.page4 button {
     padding: 5px 10px;
     border: none;
     background: #2C5AD7;
     color: white;
     border-radius: 5px;
 }
-.page4 button:hover
-{
+
+.page4 button:hover {
     border: none;
     box-shadow: 0 0 10px #2C5AD7;
 }
-.page4 img 
-{
+
+.page4 img {
     max-width: 100%;
     width: 100%;
 }
 
 /* TEAM IS STARTED */
-.team h1 
-{
+.team h1 {
     font-weight: 700;
     font-size: 42px;
     line-height: 55px;
     margin-top: 100px;
 }
-.team p 
-{
+
+.team p {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     margin-bottom: 35px;
 }
-.team .card
-{
+
+.team .card {
     border: 1px solid grey;
     border-radius: 25px;
     margin-bottom: 80px;
     background: linear-gradient(268.12deg, rgba(254, 254, 255, 0.032) -11.04%, rgba(255, 255, 255, 0.018) 104.89%);
     box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
 }
-.team .card img 
-{
+
+.team .card img {
     max-width: 50%;
     width: 100%;
-    align-self:center;
+    align-self: center;
     margin-top: 20px;
 }
-.team .card h3 
-{
+
+.team .card h3 {
     font-weight: 500;
     font-size: 28px;
     line-height: 36px;
     margin-top: -20px;
 }
-.team .card h4 
-{
+
+.team .card h4 {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.team .icon
-{
+
+.team .icon {
     max-width: 50%;
     width: 100%;
     display: flex;
@@ -111,37 +106,37 @@
     align-self: center;
     margin-bottom: 20px;
 }
-.team .card:hover
-{
+
+.team .card:hover {
     border: none;
     box-shadow: 0 0 5px white;
 }
-.team .team-card
-{
+
+.team .team-card {
     padding: 20px 0;
     background: linear-gradient(180deg, rgba(254, 254, 255, 0.0145) 0%, rgba(255, 255, 255, 0.02) 100%);
     box-shadow: 0px 22px 18px rgba(0, 0, 0, 0.05);
 }
-.team .team-card:hover
-{
+
+.team .team-card:hover {
     border: 1px solid gray;
     box-shadow: none;
 }
-.team .team-card h2 
-{
+
+.team .team-card h2 {
     font-weight: 700;
     font-size: 42px;
     line-height: 55px;
 }
-.team .team-card p 
-{
+
+.team .team-card p {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     opacity: 0.8;
 }
-.team .team-card form
-{
+
+.team .team-card form {
     align-self: center;
     max-width: 65%;
     width: 100%;
@@ -149,12 +144,12 @@
     box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
     border-radius: 30px;
 }
-.team .team-card form:hover
-{
+
+.team .team-card form:hover {
     box-shadow: 0 0 5px gray;
 }
-.team .team-card #mail
-{
+
+.team .team-card #mail {
     width: 60%;
     padding: 15px 0;
     float: left;
@@ -164,8 +159,8 @@
     outline: none;
     color: white;
 }
-.team .team-card #submit
-{
+
+.team .team-card #submit {
     padding: 9px 30px;
     border-radius: 30px;
     border: none;
@@ -177,19 +172,19 @@
     opacity: 0.9;
     color: white;
 }
-.team .team-card #submit:hover
-{
+
+.team .team-card #submit:hover {
     transform: scale(104%);
 }
+
 /* INFO IS STARTED  */
-.info img 
-{
+.info img {
     max-width: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
-.info a 
-{
+
+.info a {
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -197,21 +192,21 @@
     margin-left: 15px;
     text-decoration: none;
 }
-.info a:hover
-{
+
+.info a:hover {
     text-decoration: underline;
     color: white;
 }
-.info .icon 
-{
+
+.info .icon {
     max-width: 50%;
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
 }
-.info .icon a
-{
+
+.info .icon a {
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -221,42 +216,42 @@
     border: 1px solid rgba(128, 128, 128, 0.486);
     border-radius: 50%;
 }
-.info .icon a:hover
-{
+
+.info .icon a:hover {
     transform: scale(105%);
 }
-.info h5 
-{
+
+.info h5 {
     font-weight: 500;
     font-size: 18px;
     line-height: 40px;
     letter-spacing: 0.01em;
     color: rgba(255, 255, 255, 0.8);
 }
+
 /* FOOTER IS STARTED */
-.footer 
-{
+.footer {
     border-top: 1px solid gray;
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.footer h2
-{
+
+.footer h2 {
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
     color: rgba(255, 255, 255, 0.8);
     float: left;
 }
-.footer .navbar 
-{
+
+.footer .navbar {
     max-width: 30%;
     width: 100%;
     float: right;
 }
-.footer .navbar ul 
-{
+
+.footer .navbar ul {
     max-width: 100%;
     width: 100%;
     list-style: none;
@@ -264,24 +259,20 @@
     justify-content: space-around;
     line-height: 0;
 }
-.footer .navbar ul li a
-{
+
+.footer .navbar ul li a {
     font-weight: 400;
     font-size: 16px;
     line-height: 14px;
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
 }
-.footer .navbar ul li a:hover
-{
+
+.footer .navbar ul li a:hover {
     text-decoration: underline;
     color: white;
 }
-=======
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 @font-face {
     font-family: Rubik;
@@ -296,11 +287,9 @@
 .sayt {
     width: calc(100%-2px);
     height: auto;
-    border: 1px solid blue;
 }
 
 .Header {
-    /* width: 100%; */
     height: auto;
     background-color: #121E3C;
     padding: 20px 100px;
@@ -527,6 +516,7 @@ button:active {
     width: 100%;
     height: auto;
     margin-top: 40px;
+    padding-bottom: 60px;
 }
 
 .cards .card {
@@ -591,5 +581,3 @@ button:active {
     text-decoration: none;
     margin-top: 15px;
 }
-
->>>>>>> e022afc2ca429b73ca17757cebb0c109c95f7e21
